@@ -18,7 +18,7 @@
   font-size: 1.5em;
   font-weight: 700;
   letter-spacing: 0.1em;
-  margin: 10px;
+  margin: 10px 20px 10px 20px;
   padding: 10px;
   width: 200px;
   height: 90px;
@@ -26,9 +26,6 @@
 .btn:hover {
   background-color: #B2479A;
   border-color: #CC7FB5 #E5B6D5;
-}
-.random-background {
-  background-color: red;
 }
 @media (max-width: 700px) {
   .btn {
@@ -40,4 +37,7 @@
     font-size: 1.2em;
     height: 60px;
   }
+}
+@-ms-viewport{
+  width: device-width;
 }
